@@ -1,0 +1,84 @@
+.wrapper{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	background-color: #18909c;
+	height: 450px;
+	max-width: 320px;
+	align-items: center;
+	font-size: 25px;
+	border-radius: 30px; 
+	margin: auto;
+	font-family: courier,Times;
+}
+/*.indicator{
+	display: flex;
+	margin: 5px;
+	justify-content: space-between;
+}
+.player1{
+	border: 1px solid black; 
+}
+.player2{
+	border: 1px solid black; 
+}*/
+
+td{
+	font-size: 40px;
+	padding: 5px;
+	border:2px solid black; 
+	height: 60px;
+	width:60px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Comic Sans MS",cursive,sans-serif;
+	cursor: pointer;
+	background-color: #ffc;
+
+}
+button{
+	background-color: #1de9b6;
+	width: 70px;
+	height: 30px;
+	border: 2px solid black;
+	margin: 10px;
+}
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
+}
+.wrap2{
+	/*background-color: green;*/
+
+}
+
+.tb{
+	border-collapse: collapse;
+	border-radius: 50px;
+}
+table tr:first-child td{
+	border-top: 0px;
+
+}
+table tr:last-child td{
+	border-bottom: 0px;
+
+}
+table tr td:first-child {
+	border-left: 0px;
+	
+}
+table tr td:last-child {
+	border-right: 0px;
+	
+}
+input{
+	width: 50px;
+	height: 50px;
+
+}
+body{
+	padding-top: 50px;
+	background-color:#aaaa ;
+}
